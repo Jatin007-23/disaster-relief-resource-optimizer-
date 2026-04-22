@@ -91,7 +91,7 @@ python relief_optimizer_pro.py
 
 ```
 ![App Screenshot](screenshots/app.png)
-<img width="1567" height="1006" alt="Screenshot 2026-04-23 001138" src="https://github.com/user-attachments/assets/f8569b20-962c-400f-8398-0481a69cc560" />
+<img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/f047987b-2036-46e2-bd23-d968c0cea26d" />
 
 ```
 
