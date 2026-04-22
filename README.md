@@ -1,20 +1,24 @@
 # 🌍 Disaster Relief Resource Optimizer
 
+<p align="center">
+  <img src="screenshots/app.png" width="600"/>
+</p>
+
 ## 📌 Overview
 
-The **Disaster Relief Resource Optimizer** is a Python-based application designed to assist in efficient distribution of resources during disaster situations such as floods, earthquakes, or emergencies.
+The **Disaster Relief Resource Optimizer** is a Python-based application designed to assist in efficient allocation of resources during disaster situations such as floods, earthquakes, or emergencies.
 
-The system collects user input for population and available resources across different zones and uses data analysis to identify areas that require urgent attention.
+The system analyzes population and available resources across different zones and identifies areas that require urgent attention.
 
 ---
 
 ## 🎯 Objective
 
-To provide a simple and effective tool that helps in:
+To develop a smart and simple tool that:
 
-* Identifying resource shortages
-* Highlighting critical zones
-* Supporting better decision-making in emergency situations
+* Identifies resource shortages
+* Highlights critical zones
+* Supports better decision-making during emergencies
 
 ---
 
@@ -22,104 +26,92 @@ To provide a simple and effective tool that helps in:
 
 * 📊 Interactive user input system
 * 🧠 Resource demand calculation using NumPy
-* 🚨 Detection of high-risk (critical) zones
+* 🚨 Detection of critical zones
 * 🖥 Graphical User Interface (GUI) using Tkinter
-* 🎨 Clean and user-friendly layout
+* 🎨 Clean and user-friendly interface
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
-* **Python** – Core programming language
-* **NumPy** – Data processing and calculations
-* **Tkinter** – GUI development
+* **Python**
+* **NumPy**
+* **Tkinter (GUI)**
 
 ---
 
 ## ⚙️ How It Works
 
-1. The user enters:
+1. User enters:
 
    * Population of each zone
    * Available resources
 
-2. The system calculates:
+2. System calculates:
 
-   * Resource shortage (Need = Population − Resources)
+   * Resource shortage → `Need = Population - Resources`
 
-3. It identifies:
+3. Analysis:
 
-   * Zones where shortage exceeds a threshold
+   * Zones with high shortage are marked as critical
 
-4. These zones are marked as:
+4. Output:
 
-   * 🚨 **Critical Zones** requiring immediate attention
+   * Clear report showing needs and urgent zones
 
 ---
 
-## ▶️ How to Run
+## ▶️ Installation & Run
 
-### 1. Clone the repository
+### 1️⃣ Clone Repository
 
-```
+```bash
 git clone https://github.com/your-username/disaster-relief-resource-optimizer.git
 ```
 
-### 2. Navigate to the project folder
+### 2️⃣ Open Project
 
-```
+```bash
 cd disaster-relief-resource-optimizer
 ```
 
-### 3. Install dependencies
+### 3️⃣ Install Requirements
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the application
+### 4️⃣ Run Application
 
-```
+```bash
 python relief_optimizer_pro.py
-```
-
----
-
-## 📷 Application Preview
-
-*(Add your screenshot here)*
-
-```
-![App Screenshot](screenshots/app.png)
-<img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/f047987b-2036-46e2-bd23-d968c0cea26d" />
-
 ```
 
 ---
 
 ## 📊 Example Output
 
-* Displays resource needs for each zone
-* Highlights zones with critical shortages
-* Provides a clear and structured report
+* Displays resource requirement for each zone
+* Highlights critical zones 🚨
+* Generates structured analysis report
 
 ---
 
 ## 🌍 Real-World Applications
 
 * Disaster management systems
-* NGO resource planning
-* Government emergency response
-* Academic demonstrations
+* NGO resource distribution
+* Emergency response planning
+* Academic and research projects
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
-* 📊 Graph-based visualization
-* 🌍 Integration with maps
+* 📊 Graph and chart visualization
+* 🌍 Map-based disaster tracking
 * 📁 CSV/Excel data input
-* 🤖 AI-based demand prediction
+* 🤖 AI-based prediction system
 
 ---
 
@@ -132,6 +124,13 @@ Registration Number: 251302100
 
 ---
 
+## ⭐ Project Status
+
+✔ Completed (College Project)
+✔ Ready for demonstration and portfolio
+
+---
+
 ## 📌 Conclusion
 
-This project demonstrates how data analysis using NumPy can be applied to real-world problems like disaster management, helping improve efficiency and decision-making in critical situations.
+This project demonstrates how data analysis using NumPy can be applied to solve real-world problems like disaster management, improving efficiency and decision-making in critical situations.
